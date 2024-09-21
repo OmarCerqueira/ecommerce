@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 // import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { ViewedComponent } from './viewed/viewed.component';
+import { BrandsComponent } from './brands/brands.component';
+import { FooterComponent } from './footer/footer.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
@@ -11,7 +15,11 @@ import { CommonModule } from '@angular/common';
   imports: [
     RouterModule,
     CommonModule,
-    HeaderComponent
+    HeaderComponent,
+    ViewedComponent,
+    BrandsComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
