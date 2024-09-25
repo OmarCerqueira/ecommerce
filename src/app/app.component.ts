@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
 // import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { ShopComponent } from './shop/shop.component';
+import { ProductComponent } from './product/product.component';
 import { ViewedComponent } from './viewed/viewed.component';
 import { BrandsComponent } from './brands/brands.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './footer/footer.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { RouterModule } from '@angular/router';
@@ -16,8 +19,11 @@ import { CommonModule } from '@angular/common';
     RouterModule,
     CommonModule,
     HeaderComponent,
+    ShopComponent,
+    ProductComponent,
     ViewedComponent,
     BrandsComponent,
+    NewsletterComponent,
     FooterComponent,
     CopyrightComponent
   ],
